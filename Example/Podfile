@@ -1,13 +1,11 @@
 use_frameworks!
 
-platform :ios, '10.0'
+platform :ios, '11.0'
 
 target 'DRUtils_Example' do
   pod 'DRUtils', :path => '../'
 
   target 'DRUtils_Tests' do
     inherit! :search_paths
-
-    pod 'FBSnapshotTestCase'
   end
 end
